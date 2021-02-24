@@ -1,0 +1,2 @@
+C:\Users\hylep\Desktop\nOCTcuda\x64\Debug\nOCTcuda.exe
+C:\Users\hylep\Desktop\nOCTcuda\x64\Debug\nOCTcuda.pdb
