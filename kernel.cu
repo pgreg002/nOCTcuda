@@ -292,7 +292,7 @@ extern "C" {
         for (nAline = 0; nAline < gnCalibrationNumberLines; nAline++)
             for (nPoint = 0; nPoint < gnRawLineLength; nPoint++) {
                 nLocation = nAline * gnRawLineLength + nPoint;
-//                gpfRawCalibrationParallel[nLocation] = (short)v[nLocation];
+        //                gpfRawCalibrationParallel[nLocation] = (short)v[nLocation];
             }   // for (nPoint
 
 
@@ -1068,5 +1068,33 @@ extern "C" {
         //gpuErrchk(cudaPeekAtLastError());
         #endregion // subtract reference
         
+    }
+}
+
+extern "C" {
+    __declspec(dllexport) int calculateCalibration_nOCTcuda(){
+    
+    return 0;
+    }
+}
+
+extern "C" {
+    __declspec(dllexport) int applyCalibration_nOCTcuda(){
+    
+    return 0;
+    }
+}
+
+extern "C" {
+    __declspec(dllexport) int calculateDispersion_nOCTcuda(){
+    
+    return 0;
+    }
+}
+
+extern "C" {
+    __declspec(dllexport) int getFinalResults_nOCTcuda(){
+    
+    return 0;
     }
 }
